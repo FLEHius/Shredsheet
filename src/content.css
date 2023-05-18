@@ -1,0 +1,12 @@
+* {
+	font-family: 'Inconsolata', monospace;
+}
+
+html
+{   
+    background-color: rgb(19, 0, 41);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    min-height: 100%;
+    margin: 0;
+}
