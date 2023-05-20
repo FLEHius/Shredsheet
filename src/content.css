@@ -62,12 +62,12 @@ html
 }
 
 #mapwindow {
-	width: 800px;
-	height: 600px;
+	width: 1200px;
+	height: 750px;
 	background-color: rgba(255, 255, 255, 0.493);
 	display: inline-block;
-	max-height: 600px;
-	max-width: 800px;
+	max-height: 750px;
+	max-width: 1200px;
 	margin-left: 15px;
 	border-radius: 7px;
 
@@ -76,9 +76,9 @@ html
 #settingswindow {
 	display: inline-block;
 	background-color: rgba(119, 1, 1, 0.493);
-	width: 500px;
-	height: 600px;
-	max-height: 600px;
+	width: 550px;
+	height: 850px;
+	max-height: 850px;
 	max-width: 800px;
 	border-radius: 7px;
 }
@@ -92,4 +92,63 @@ html
 
 .filterbuttons {
 	text-align: center;
+}
+
+input.slider { /* slider container (more or less) */
+	width: 60%;
+}
+
+.slider {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 100%;
+	height: 6px;
+	background: rgba(0, 0, 0, 0.479);
+	outline: none;
+	opacity: 0.5;
+	border-radius: 20px;
+	display: inline-block;
+	margin: 0;
+}
+
+.slider:hover {
+	opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none; 
+	appearance: none;
+	width: 18px; 
+	height: 18px; 
+	border-radius: 50%;
+	background: rgb(255, 0, 242); 
+  }
+
+  .slider::-moz-range-thumb {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #04AA6D;
+  }
+
+.slideroutput
+{
+		width: 60px;
+		padding: 5px 10px;
+		margin: 5px 0 20px 20px;
+		position: relative;
+		display: inline-block;
+		color: white;
+		background: var(--slider);
+	   box-shadow: 2px 4px 8px 0 hsla(242, 87%, 63%, 0.6);
+		font-size: 15px;
+}
+
+#current {
+	display: inline-block;
+	margin-top: 7px;
+}
+
+.filtertext {
+	margin: 0;
 }
