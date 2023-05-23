@@ -32,56 +32,56 @@
                 <p id="filtertext">Filter maps</p>
 
                 <ul id="filterslider">
-                    <li>
+                    <li> 
                         
                         <p class="BPMmin" class="filtertext">minimal BPM</p>
                     <input type="range" min="50" max="300" value="140" class="slider" id="sliderRange0">
-                   <span id="slideroutput" class="slideroutput">140 BPM</span>
+                   <input type="text" id="slideroutput0" class="slideroutput" value="140" min="50" max="300">  BPM</input>
                 </li>
                 <li>
                     <p id="BPMmax" class="filtertext">maximal BPM</p>
                     <input type="range" min="50" max="300" value="180" class="slider" id="sliderRange1">
-                  <span id="slideroutput1" class="slideroutput">220 BPM</span>
+                  <input type="text" min="50" max="300" value="180 BPM" id="slideroutput1" class="slideroutput"> BPM</input>
                 </li>
                 <li>
                     <p id="OPMmin" class="filtertext">minimal OPM</p>
                     <input type="range" min="50" max="300" value="140" class="slider" id="sliderRange2">
-                   <span id="slideroutput2" class="slideroutput">140 OPM</span>
+                   <input min="50" max="300" value="140" type="text" id="slideroutput2" class="slideroutput"> OPM</input>
                 </li>
                 <li>
                     <p id="OPMmax" class="filtertext">maximal OPM</p>
                     <input type="range" min="50" max="300" value="180" class="slider" id="sliderRange3">
-                    <span id="slideroutput3" class="slideroutput">180 OPM</span>
+                    <input min="50" max="300" value="180" type="text" id="slideroutput3" class="slideroutput"> OPM</input>
                 </li>
                 <li>
                     <p id="STARmin" class="filtertext">minimal Stars</p>
                     <input type="range" min="0" max="10" value="5" class="slider" id="sliderRange4">
-                    <span id="slideroutput4" class="slideroutput">5*</span>
+                    <input min="0" max="10" value="5" type="text" id="slideroutput4" class="slideroutput"> *</input>
                 </li>
                 <li>
                     <p id="STARmax" class="filtertext">maximal Stars</p>
                     <input type="range" min="0" max="10" value="7" class="slider" id="sliderRange5">
-                    <p id="slideroutput5" class="slideroutput">7*</p>
+                    <input min="0" max="10" value="7" type="text" id="slideroutput5" class="slideroutput"> *</input>
                 </li>
                 <li>
                     <p id="ODmin" class="filtertext">minimal OD</p>
                     <input type="range" min="0" max="10" value="4" class="slider" id="sliderRange6">
-                    <p id="slideroutput6" class="slideroutput"> 4</p>
+                    <input min="0" max="10" value="4" type="text" id="slideroutput6" class="slideroutput"></input>
                 </li>
                 <li>
                     <p id="ODmax" class="filtertext">maximal OD</p>
                     <input type="range" min="0" max="10" value="10" class="slider" id="sliderRange7">
-                    <p id="slideroutput7" class="slideroutput"> 10</p>
+                    <input min="0" max="10" value="10" type="text" id="slideroutput7" class="slideroutput"></input>
                 </li>
                 <li>
                     <p id="ARmin" class="filtertext">minimal AR</p>
                     <input type="range" min="6" max="10" value="9" class="slider" id="sliderRange8">
-                    <p id="slideroutput8" class="slideroutput"> 9</p>
+                    <input min="6" max="10" value="9" type="text" id="slideroutput8" class="slideroutput"></input>
                 </li>
                 <li>
                     <p id="ARmax" class="filtertext">maximal AR</p>
                     <input type="range" min="0" max="10" value="10" class="slider" id="sliderRange9">
-                    <p id="slideroutput9" class="slideroutput"> 10</p>
+                    <input min="0" max="10" value="10" type="text" id="slideroutput9" class="slideroutput"></input>
                 </li>
                 </ul>
 
@@ -115,5 +115,8 @@
     </div>
     <script type="text/javascript" src="src/js/intro.js"></script>
     <script type="text/javascript" src="src/js/filterslider.js"></script>
+    <script type="text/javascript" src="src/js/jquery.min.js"></script>
+    <script type="text/javascript" src="src/js/jquery.min.js"></script>
+    <script type="text/javascript" src="src/js/rangeslider.min.js"></script>
 </body>
     </html>
